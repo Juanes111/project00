@@ -4,21 +4,27 @@
 	}
 	
 	ol { 
-	     color: red;
+		font-size: medium;
+		font-family: Arial, Helvetica, sans-serif; 
+		color: red;
 	}
 	
 	input[Type=text] {   
 		Background-color:  yellow;
    }
-
-   div {
+ 
+   input[Type=number] {   
+	Background-color: rgb(161, 218, 161);
+}
+   #middle {
 	   
 		font-family: Arial, Helvetica, sans-serif;
+		font-size: medium;
 		background-color: rgb(64, 167, 214);
-	   width: 500px;
-	   height: 400px;
-	   margin: 10px;
-	   padding: 30Px;
+	   	width: 1000px;
+	   	height: 400px;
+	   	margin: 10px;
+	   	padding: 30Px;
    }
 
    table {
@@ -44,10 +50,25 @@
    }
 
    #bottom {
-	   font-size: 12px;
+	width: 1000px;
+	height: 50px;   
+	font-size: 24px;
+	background-color: rgb(157, 207, 157);
    }
 
-   .name {
+      .name {
 	   font-style: italic;
 	   font
    }
+
+   button {
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+	background-color: aqua;
+}
+	button:hover {
+		background-color: orange;
+	}
+
+	
