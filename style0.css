@@ -1,14 +1,23 @@
-	h1 {
+	h1, h2, h3 {
 		color: blue;
 		text-align: center;
 	}
 	
-	ol { 
+	ol li { 
 		font-size: medium;
 		font-family: Arial, Helvetica, sans-serif; 
 		color: red;
 	}
 	
+	li {
+		color: green;
+
+	}
+
+	ul {
+
+
+	}
 	input[Type=text] {   
 		Background-color:  yellow;
    }
